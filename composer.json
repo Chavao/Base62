@@ -1,0 +1,20 @@
+{
+    "name": "Chavao/Base62",
+    "description": "Base 62 encoder/decoder",
+    "version": "0.0.1",
+    "type": "library",
+    "time": "2012-11-16 20:21:41",
+    "homepage": "",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Chavão",
+            "email": "fale@chavao.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Chavao/Base62": "src/"
+        }
+    }
+}
