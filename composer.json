@@ -1,5 +1,5 @@
 {
-    "name": "chavao/base62",
+    "name": "Chavao\/Base62",
     "description": "Base 62 encoder/decoder",
     "version": "0.0.1",
     "type": "library",
