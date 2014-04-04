@@ -19,7 +19,7 @@ class Base62
     public function encode($value = null)
     {
         if (is_null($value)) {
-            throw new \InvalidArgumentException('Value must be setted');
+            throw new \InvalidArgumentException('Value must not be blank');
         }
 
         $base62 = '';
@@ -34,7 +34,7 @@ class Base62
     public function decode($value = null)
     {
         if (is_null($value)) {
-            throw new \InvalidArgumentException('Value must be setted');
+            throw new \InvalidArgumentException('Value must not be blank');
         }
 
         $base10 = 0;
